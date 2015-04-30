@@ -11,7 +11,7 @@ namespace HavaCDep.Website.Controllers
         // GET: Home
         public ActionResult Index()
         {
-            return Content("Hello, world!!");
+            return Content("Hello, world!!!");
         }
     }
 }

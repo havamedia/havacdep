@@ -1,5 +1,6 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using HavaCDep.Website.Models;
 
 namespace HavaCDep.Website.Tests
 {
@@ -7,9 +8,9 @@ namespace HavaCDep.Website.Tests
     public class UnitTest1
     {
         [TestMethod]
-        public void TestMethod1()
+        public void TestMethod2()
         {
-            Assert.IsTrue(false);
+            Assert.IsTrue(new Model1().IsTrue);
         }
     }
 }
